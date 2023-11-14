@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# SPDX-FileCopyrightText: 2023 Steve Jeong <steve@how2flow.net>
+# SPDX-License-Identifier: MIT
+
+set -e
+DEFAULT_GROUP=$(whoami)
+RULE="SUBSYSTEM==\"gpio\", ENV{DEVNAME}==\"/dev/gpiochip[0-4]\", GROUP=\"${DEFAULT_GROUP}\" MODE=\"0660\""
+
+echo ${RULE}
