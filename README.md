@@ -6,7 +6,13 @@ The python scripts for testing gpio/alts of boards.
 
 ```
 Linux OS
-python >= 3.7
+(developed in Ubuntu 20.04 LTS)
+```
+
+### requirements
+```
+python3 (>= 3.7)
+python3-dev
 ```
 
 ### setup
