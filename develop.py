@@ -29,23 +29,24 @@ e.g.
 GPIO((0, 0)) is gpiochip0/gpio0
 '''
 
-gpio40pins = [GPIO((3, 14)),
-              GPIO((3, 13)),
-              GPIO((0, 14)), GPIO((2, 4)),
-                             GPIO((2, 3)),
-              GPIO((0, 16)), GPIO((2, 7)),
-              GPIO((0, 17)),
-              GPIO((0, 18)), GPIO((2, 13)),
-                             GPIO((2, 14)),
-              GPIO((3, 17)),
-              GPIO((3, 18)), GPIO((2, 8)),
-              GPIO((3, 19)), GPIO((3, 1)),
-                             GPIO((2, 9)),
-              GPIO((0, 12)), GPIO((0, 11)),
-              GPIO((2, 16)),
-              GPIO((2, 15)), GPIO((2, 10)),
-              GPIO((0, 13)),
-              GPIO((2, 5)) , GPIO((2, 6))]
+gpio40pins = [GPIO((0, 3)),
+              GPIO((0, 5)),
+              GPIO((0, 7)), GPIO((0, 8)),
+                            GPIO((0,10)),
+              GPIO((0,11)), GPIO((0,12)),
+              GPIO((0,13)),
+              GPIO((0,15)), GPIO((0,16)),
+                            GPIO((0,18)),
+              GPIO((0,19)),
+              GPIO((0,21)), GPIO((0,22)),
+              GPIO((0,23)), GPIO((0,24)),
+                            GPIO((0,26)),
+              GPIO((0,27)), GPIO((0,28)),
+              GPIO((0,29)),
+              GPIO((0,31)), GPIO((0,32)),
+              GPIO((0,33)),
+              GPIO((0,35)), GPIO((0,36)),
+                            GPIO((0,38))]
 
 gpios = [digitalio.DigitalInOut(pin) for pin in gpio40pins]
 for gpio in gpios:
