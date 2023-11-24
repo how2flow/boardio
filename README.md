@@ -3,6 +3,83 @@
 The python scripts for testing gpio/alts of boards.
 
 ## Support
+
+Use `Ctrl + F` to find your target is supported.
+
+**controllers:**
+```
+.
+|-- allwinner/
+|   |-- D1
+|   |-- a20
+|   |-- a33
+|   |-- a64
+|   |-- h3
+|   |-- h5
+|   |-- h6
+|   `-- h616
+|-- am335x
+|-- am65xx
+|-- amlogic/
+|   |-- a311d
+|   |-- meson_g12_common
+|   |-- s905
+|   |-- s905x
+|   |-- s905x3
+|   |-- s905y2
+|   `-- s922x
+|-- atheros/
+|   `-- ar9331
+|-- bcm2711
+|-- bcm2712
+|-- bcm283x
+|-- dra74x
+|-- esp8266
+|-- ftdi_mpsse/
+|   |-- ft2232h
+|   |-- ft232h
+|   `-- mpsse
+|-- hfu540
+|-- mcp2221
+|-- mips24kec
+|-- mt8167
+|-- nova
+|-- nxp_imx6ull
+|-- nxp_imx8m
+|-- nxp_lpc4330
+|-- pentium/
+|   |-- j4105
+|   `-- n3710
+|-- rockchip/
+|   |-- rk3308
+|   |-- rk3328
+|   |-- rk3399
+|   |-- rk3566
+|   |-- rk3568
+|   |-- rk3568b2
+|   `-- rk3588
+|-- rp2040
+|-- rp2040_u2if
+|-- sama5
+|-- samsung/
+|   `-- exynos5422
+|-- snapdragon/
+|   `-- apq8016
+|-- starfive/
+|   |-- JH71x0
+|-- stm32/
+|   |-- stm32f405
+|   `-- stm32mp157
+`-- tegra/
+    |-- t186
+    |-- t194
+    |-- t210
+    `-- t234
+
+```
+<br>
+
+**boards:**
 ```
 .
 |-- bananapi/
